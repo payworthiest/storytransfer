@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>StoryTransfer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar" role="navigation">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"><h2>StoryTransfer</h2></a>
+    </div>
+
+    <div class="briefcase">
+      <ul class="list-inline">
+        <li><a class='danger' data-placement='bottom' title="Briefcase" href='#'>
+            <img src="images/briefcase.svg" class="menu"></a>
+            <div id="popover_content_wrapper" style="display: none">
+              <div class="container">
+                  <div class="submenu">
+                  <a class="submenu"><figure><img src="images/login.svg" class="submenu">
+                      <figcaption>My profile</figcaption></figure>
+                  </a>
+                  </div>
+                  <div class="submenu">
+                  <a class="submenu"><figure><img src="images/mybot.png" class="submenu">
+                      <figcaption>My bot</figcaption></figure>
+                  </a>
+                  </div>
+                  <div class="submenu">
+                  <a class="submenu"><figure><img src="images/mytranslate.svg" class="submenu">
+                      <figcaption>My translate</figcaption></figure>
+                  </a>
+                  </div>
+                  <div class="submenu">
+                  <a class="submenu"><figure><img src="images/myweather.svg" class="submenu">
+                      <figcaption>My weather</figcaption></figure>
+                  </a>
+                  </div>
+                  <div class="submenu">
+                  <a class="submenu"><figure><img src="images/mysetting.png" class="submenu">
+                      <figcaption>My setting</figcaption></figure>
+                  </a>
+                  </div>
+                  <div class="submenu">
+                  <a class="submenu"><figure><img src="images/mycity.svg" class="submenu">
+                      <figcaption>My city</figcaption></figure>
+                  </a>
+                  </div>
+                  <div class="submenu">
+                  <a class="submenu"><figure><img src="images/myschedule.svg" class="submenu">
+                      <figcaption>My schedule</figcaption></figure>
+                  </a>
+                  </div>
+                  <div class="submenu">
+                  <a class="submenu"><figure><img src="images/todo.svg" class="submenu">
+                      <figcaption>My todo</figcaption></figure>
+                  </a>
+                  </div>
+              </div>
+            </div>
+        </li>
+      </ul>
+    </div>
+    <div>
+        <a class="notif" href="#"><img src="images/notif.svg" class="notif"></a>
+    </div>
+    <div class="tooltip">Hover over me
+        <span class="tooltiptext">Tooltip text</span>
+    </div>
+  </div>
+
+
+</nav>
+
+<div class="container-fluid">
+    <div class="col-md-4"><div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tnBQmEqBCY0" allowfullscreen></iframe>
+        </div>
+        <div class="bot-group">
+            <a href="#" data-tooltip="RSVP"><img class="bot" src="images/rsvp.svg"></a>
+            <a href="#" data-tooltip="Crowdfunding"><img class="bot" src="images/crowdfunding.svg"></a>
+            <a href="#" data-tooltip="Crodwsourcing"><img class="bot" src="images/crowdsourcing.png"></a>
+            <a href="#" data-tooltip="Eats"><img class="bot" src="images/eats.png"></a>
+            <a href="#" data-tooltip="Hospitality"><img class="bot" src="images/hospitality.svg"></a>
+            <a class='drop' data-placement='bottom' href='#' data-tooltip="More">
+            <img src="images/plus.svg" class="bot"></a>
+            <div id="dropmenu-content" style="display: none">
+              <div class="container-menu">
+                  <div class="dropmenu">
+                  <a href="#" data-tooltip="Delivery" class="dropmenu"><img src="images/delivery.svg" class="bot"></a>
+                  </div>
+                  <div class="dropmenu">
+                  <a href="#" data-tooltip="Dessert" class="dropmenu"><img src="images/dessert.png" class="bot"></a>
+                  </div>
+                  <div class="dropmenu">
+                  <a href="#" data-tooltip="PR" class="dropmenu"><img src="images/pr.svg" class="bot"></a>
+                  </div>
+                  <div class="dropmenu">
+                  <a href="#" data-tooltip="GIS" class="dropmenu"><img src="images/gis.svg" class="bot"></a>
+                  </div>
+                  <div class="dropmenu">
+                  <a href="#" data-tooltip="Tickets" class="dropmenu"><img src="images/tickets.svg" class="bot"></a>
+                  </div>
+                  <div class="dropmenu">
+                  <a href="#" data-tooltip="Fruits" class="dropmenu"><img src="images/fruits.svg" class="bot"></a>
+                  </div>
+                  <div class="dropmenu">
+                  <a href="#" data-tooltip="Fashion" class="dropmenu"><img src="images/fashion.png" class="bot"></a>
+                  </div>
+                  <div class="dropmenu">
+                  <a href="#" data-tooltip="Gimbap" class="dropmenu"><img src="images/gimbap.svg" class="bot"></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4"><div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tnBQmEqBCY0" allowfullscreen></iframe>
+        </div>
+        <div class="bot-group">
+            <a href="#" data-tooltip="RSVP"><img class="bot" src="images/rsvp.svg"></a>
+            <a href="#" data-tooltip="Crowdfunding"><img class="bot" src="images/crowdfunding.svg"></a>
+            <a href="#" data-tooltip="Crodwsourcing"><img class="bot" src="images/crowdsourcing.png"></a>
+            <a href="#" data-tooltip="Eats"><img class="bot" src="images/eats.png"></a>
+            <a href="#" data-tooltip="Hospitality"><img class="bot" src="images/hospitality.svg"></a>
+            <a class='drop' data-placement='bottom' href='#' data-tooltip="More">
+            <img src="images/plus.svg" class="bot"></a>
+        </div>
+    </div>
+    <div class="col-md-4"><div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tnBQmEqBCY0" allowfullscreen></iframe>
+        </div>
+        <div class="bot-group">
+            <a href="#" data-tooltip="RSVP"><img class="bot" src="images/rsvp.svg"></a>
+            <a href="#" data-tooltip="Crowdfunding"><img class="bot" src="images/crowdfunding.svg"></a>
+            <a href="#" data-tooltip="Crodwsourcing"><img class="bot" src="images/crowdsourcing.png"></a>
+            <a href="#" data-tooltip="Eats"><img class="bot" src="images/eats.png"></a>
+            <a href="#" data-tooltip="Hospitality"><img class="bot" src="images/hospitality.svg"></a>
+            <a class='drop' data-placement='bottom' href='#' data-tooltip="More">
+            <img src="images/plus.svg" class="bot"></a>
+        </div>
+    </div>
+    <div class="col-md-4"><div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tnBQmEqBCY0" allowfullscreen></iframe>
+        </div>
+        <div class="bot-group">
+            <a href="#" data-tooltip="RSVP"><img class="bot" src="images/rsvp.svg"></a>
+            <a href="#" data-tooltip="Crowdfunding"><img class="bot" src="images/crowdfunding.svg"></a>
+            <a href="#" data-tooltip="Crodwsourcing"><img class="bot" src="images/crowdsourcing.png"></a>
+            <a href="#" data-tooltip="Eats"><img class="bot" src="images/eats.png"></a>
+            <a href="#" data-tooltip="Hospitality"><img class="bot" src="images/hospitality.svg"></a>
+            <a class='drop' data-placement='bottom' href='#' data-tooltip="More">
+            <img src="images/plus.svg" class="bot"></a>
+        </div>
+    </div>
+    <div class="col-md-4"><div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tnBQmEqBCY0" allowfullscreen></iframe>
+        </div>
+        <div class="bot-group">
+            <a href="#" data-tooltip="RSVP"><img class="bot" src="images/rsvp.svg"></a>
+            <a href="#" data-tooltip="Crowdfunding"><img class="bot" src="images/crowdfunding.svg"></a>
+            <a href="#" data-tooltip="Crodwsourcing"><img class="bot" src="images/crowdsourcing.png"></a>
+            <a href="#" data-tooltip="Eats"><img class="bot" src="images/eats.png"></a>
+            <a href="#" data-tooltip="Hospitality"><img class="bot" src="images/hospitality.svg"></a>
+            <a class='drop' data-placement='bottom' href='#' data-tooltip="More">
+            <img src="images/plus.svg" class="bot"></a>
+        </div>
+    </div>
+    <div class="col-md-4"><div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tnBQmEqBCY0" allowfullscreen></iframe>
+        </div>
+        <div class="bot-group">
+            <a href="#" data-tooltip="RSVP"><img class="bot" src="images/rsvp.svg"></a>
+            <a href="#" data-tooltip="Crowdfunding"><img class="bot" src="images/crowdfunding.svg"></a>
+            <a href="#" data-tooltip="Crodwsourcing"><img class="bot" src="images/crowdsourcing.png"></a>
+            <a href="#" data-tooltip="Eats"><img class="bot" src="images/eats.png"></a>
+            <a href="#" data-tooltip="Hospitality"><img class="bot" src="images/hospitality.svg"></a>
+            <a class='drop' data-placement='bottom' href='#' data-tooltip="More">
+            <img src="images/plus.svg" class="bot"></a>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('.danger').popover({
+    html : true,
+    content: function() {
+      return $('#popover_content_wrapper').html();
+    }
+  });
+});
+$(document).ready(function(){
+  $('.drop').popover({
+    html : true,
+    content: function() {
+      return $('#dropmenu-content').html();
+    }
+  });
+});
+$('html').on('mouseup', function(e) {
+    if(!$(e.target).closest('.popover').length) {
+        $('.popover').each(function(){
+            $(this.previousSibling).popover('hide');
+        });
+    }
+});
+</script>
+
+</body>
+</html>
